@@ -1,0 +1,102 @@
+Read M<-
+
+optimista theme colour : 
+colour theme
+
+primary blue  : #1b84ff
+                #e9f3ff 
+
+orange :
+ 
+red : 
+ 
+green
+
+yelllow
+
+black 
+
+grey
+
+white : #F9F9F9
+        #f8f8f8
+        #F1F1F4
+
+////////////////////<!-- Doc Links -->////////////////////
+
+https://keenthemes.com/keen
+
+Hero 
+ 
+https://storyset.com/illustration/leadership/cuate/animate
+
+
+About Us
+
+https://storyset.com/illustration/target/cuate/animate
+
+https://www.freepik.com/free-photo/side-view-people-working-with-laptop_29716903.htm#fromView=search&page=1&position=6&uuid=be925963-e8b3-4646-b93e-845be27b0bf3&query=about+us+software+solution
+
+
+How it works
+
+https://storyset.com/illustration/agile-method/cuate
+
+
+What we do
+
+https://www.flaticon.com/free-icon/codetags_10110568
+https://www.flaticon.com/free-icon/logo_11378763
+https://www.flaticon.com/free-icon/pen-tool_2901242
+https://www.flaticon.com/free-icon/rss-feed_327513
+https://www.flaticon.com/free-icon/target_3176382?term=marketing&page=2&position=48&origin=search&related_id=3176382
+https://www.flaticon.com/free-icon/digital-marketing_4297725
+
+Price
+
+https://storyset.com/illustration/personal-finance/cuate
+
+
+Services 
+
+https://www.freepik.com/free-vector/website-development-banner_5467393.htm#from_element=cross_selling__vector
+https://www.freepik.com/free-vector/app-development-banner_5467426.htm#fromView=search&page=1&position=0&uuid=3ef73ea7-22ca-46f9-a440-ca05fc230625&query=mobile+app+development
+https://www.freepik.com/free-vector/cartoon-graphic-design-landing-page_17806779.htm#from_element=cross_selling__vector
+https://www.freepik.com/free-vector/digital-marketing-landing-page_5467432.htm#fromView=author&page=1&position=17&uuid=1bedcdcb-a587-46a9-a434-475e895bc13d
+https://www.freepik.com/free-vector/magnet-attracting-likes-feedbacks-followers-from-smartphone-with-girl-profile-screen-landing-page_5467430.htm#fromView=search&page=3&position=23&uuid=b5430c8e-ea52-4283-9509-546c81e81fed&query=social++media+marketing
+
+
+product
+
+https://www.freepik.com/free-ai-image/technology-integrated-everyday-life_383220428.htm#fromView=search&page=1&position=13&uuid=b5430c8e-ea52-4283-9509-546c81e81fed&query=AI+Chatbot
+https://www.freepik.com/free-ai-image/man-is-working-computer-with-graph-screen_413065066.htm#fromView=search&page=1&position=1&uuid=b5430c8e-ea52-4283-9509-546c81e81fed&query=CRM+Software
+https://www.freepik.com/free-photo/futuristic-5g-wireless-network-ai-robot-hand-tap-wifi-icon_18463042.htm#fromView=search&page=2&position=15&uuid=b5430c8e-ea52-4283-9509-546c81e81fed&query=ai
+https://www.freepik.com/free-photo/qualified-technicians-brainstorm-ways-use-ai-cognitive-computing-extract-usable-information-from-complex-data-team-specialists-implement-artificial-intelligence-process-massive-datasets_77716947.htm#fromView=search&page=7&position=42&uuid=b5430c8e-ea52-4283-9509-546c81e81fed&query=Chatbot
+https://www.freepik.com/free-photo/modern-equipped-computer-lab_21797035.htm#fromView=search&page=1&position=3&uuid=b5430c8e-ea52-4283-9509-546c81e81fed&query=Employee+Management+Software
+https://www.freepik.com/free-vector/general-business-horizontal-banner-template_15274952.htm#fromView=search&page=1&position=47&uuid=b5430c8e-ea52-4283-9509-546c81e81fed&query=Template+Software
+https://www.freepik.com/free-photo/box-market-electronic-ordering-shop-basket_1236197.htm#fromView=search&page=1&position=46&uuid=b5430c8e-ea52-4283-9509-546c81e81fed&query=E-commerce+Platform
+https://www.freepik.com/free-photo/3d-rendering-website-hosting-concept_28645200.htm
+
+
+
+////////////node pakages////////////
+
+node -v
+npm -v
+
+npm init -y
+
+npm install gulp --save-dev
+npm install browser-sync --save-dev
+
+gulp
+
+
+////////- vendor cdn version - ///////////
+css
+* Bootstrap Icons v1.11.3
+* Font Awesome Free 6.5.2
+* Swiper 11.1.1
+* imagesLoaded PACKAGED v5.0.0
+* Isotope PACKAGED v3.0.6
+* purecounter.js * Version: 1.5.0
