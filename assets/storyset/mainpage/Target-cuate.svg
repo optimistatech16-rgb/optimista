@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 203.33 221">
+  <!-- Generator: Adobe Illustrator 29.5.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 137)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #37474f;
+      }
+
+      .st1 {
+        fill: #263238;
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+
+      .st3 {
+        fill: #1b84ff;
+      }
+
+      .st4 {
+        fill: #455a64;
+      }
+
+      .st5 {
+        opacity: .1;
+      }
+    </style>
+  </defs>
+  <g id="freepik--Target--inject-48">
+    <rect class="st4" x="78.53" y="163.87" width="42.9" height="1.8"/>
+    <polygon class="st4" points="119.81 165.67 140.87 161.59 140.87 159.79 119.81 163.87 119.81 165.67"/>
+    <polygon class="st4" points="71.79 203.46 68.5 203.46 86.66 111.03 94.86 111.03 71.79 203.46"/>
+    <path class="st0" d="M86.66,111h8.2l-4.88,19.55c-2.28-.66-4.51-1.52-6.65-2.55l3.33-17Z"/>
+    <polygon class="st4" points="129.24 203.46 132.53 203.46 109.46 111.03 101.26 111.03 129.24 203.46"/>
+    <path class="st0" d="M109.46,111l4.93,19.75c-2.21.63-4.46,1.08-6.74,1.35l-6.38-21.1h8.19Z"/>
+    <polygon class="st4" points="156.57 203.46 159.86 203.46 120.01 106.01 111.81 106.01 156.57 203.46"/>
+    <path class="st0" d="M127.59,124.58c-1.81,1.24-3.71,2.36-5.68,3.33l-10.1-21.91h8.2l7.58,18.58Z"/>
+    <ellipse class="st3" cx="109.84" cy="77" rx="51.65" ry="43.75" transform="translate(-2.56 150.21) rotate(-68.11)"/>
+    <polygon class="st3" points="107.84 25.75 118.24 26.52 101.18 127.5 90.78 126.73 107.84 25.75"/>
+    <g class="st5">
+      <ellipse cx="109.84" cy="77" rx="51.65" ry="43.75" transform="translate(-2.56 150.21) rotate(-68.11)"/>
+      <polygon points="107.84 25.75 118.24 26.52 101.18 127.5 90.78 126.73 107.84 25.75"/>
+    </g>
+    <ellipse class="st3" cx="100.26" cy="76.29" rx="51.65" ry="43.75" transform="translate(-7.91 140.88) rotate(-68.11)"/>
+    <ellipse class="st2" cx="100.26" cy="76.29" rx="40.29" ry="34.13" transform="translate(-7.91 140.88) rotate(-68.11)"/>
+    <ellipse class="st3" cx="100.27" cy="76.29" rx="29.05" ry="24.61" transform="translate(-7.91 140.89) rotate(-68.11)"/>
+    <ellipse class="st2" cx="100.27" cy="76.29" rx="17.69" ry="14.98" transform="translate(-7.91 140.89) rotate(-68.11)"/>
+    <path class="st3" d="M107.13,75.47c0,4.24-3.1,8.05-6.89,8.51s-6.83-2.59-6.81-6.82,3.11-8,6.89-8.52,6.83,2.59,6.81,6.83Z"/>
+  </g>
+  <g id="freepik--Arrows--inject-48">
+    <rect class="st1" x="58.45" y="14.63" width=".8" height="76.85" transform="translate(-12.32 87.88) rotate(-68.11)"/>
+    <polygon class="st1" points="20.33 40.64 20.49 40.56 23.5 39.29 17.07 36.7 13.85 38.04 20.33 40.64"/>
+    <path class="st1" d="M15.94,32.85l1.39,3.15,6.44,2.58c-.59-.98-1.06-2.02-1.41-3.1l-6.42-2.63Z"/>
+    <polygon class="st1" points="96.13 66.65 95.08 69.07 91.65 69.12 93.7 67.07 93.64 64.18 96.13 66.65"/>
+    <rect class="st1" x="108.64" y="11.35" width=".8" height="76.85" transform="translate(.34 100.29) rotate(-49.46)"/>
+    <polygon class="st1" points="75.69 24.1 75.88 24.08 79.14 23.82 73.85 19.34 70.37 19.59 75.69 24.1"/>
+    <path class="st1" d="M73.99,15.33l.37,3.4,5.29,4.49c-.25-1.11-.37-2.25-.36-3.39l-5.3-4.5Z"/>
+    <polygon class="st1" points="139.74 73.4 138.37 74.91 134.37 73.66 136.96 72.36 137.82 69.59 139.74 73.4"/>
+    <rect class="st1" x="49.93" y="128.1" width=".69" height="66.02" transform="translate(-69.11 41.81) rotate(-27.69)"/>
+    <polygon class="st1" points="31.99 131.52 32.14 131.56 34.82 132.4 32.05 127.13 29.2 126.21 31.99 131.52"/>
+    <path class="st1" d="M33.45,124l-.8,2.83,2.77,5.28c.16-.96.43-1.91.81-2.81l-2.78-5.3Z"/>
+    <polygon class="st1" points="67.06 190.45 63.47 190.45 62.77 189.88 65.26 189.68 66.83 187.75 67.06 190.45"/>
+  </g>
+</svg>
