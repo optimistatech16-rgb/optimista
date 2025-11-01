@@ -1,85 +1,7 @@
-.navbar-brand {
-  display: flex;
-  align-items: center;
-}
-
-/*.navbar-brand-item {
-  height: 50px;
-  margin-right: 10px; 
-}/*
-/*
-/* Brand text layout */
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
-/* Main brand name */
-.brand-name {
-  font-weight: 800;
-  /*color: #000;/*/
-  font-size: 1.1rem; /* base for mobile */
-}
-
-/* Subtitle */
-.brand-subtitle {
-  /*color: #6c757d;  gray color */
-  font-size: 0.75rem; /* base for mobile */
-  margin-top: 2px;
-}
-
-/* sub-Subtitle */
-.brand-sub {
-  /*color: #6c757d;  gray color */
-  font-size: 0.55rem; /* base for mobile */
-  margin-top: 2px;
-}
-
-
-/* Responsive text sizes */
-
-@media (min-width: 316px) {
-  .brand-name { font-size: 0.8rem; }
-  .brand-subtitle { font-size: 0.5rem; }
-  .brand-sub { font-size: 0.4rem; }
-}
-
-@media (min-width: 376px) {
-  .brand-name { font-size: 1rem; }
-  .brand-subtitle { font-size: 0.6rem; }
-  .brand-sub { font-size: 0.5rem; }
-}
-
-@media (min-width: 576px) {
-  .brand-name { font-size: 1.2rem; }
-  .brand-subtitle { font-size: 0.8rem; }
-  .brand-sub { font-size: 0.7rem; }
-}
-
-@media (min-width: 768px) {
-  .brand-name { font-size: 1.5rem; }
-  .brand-subtitle { font-size: 1rem; }
-  .brand-sub { font-size: 0.8rem; }
-}
-
-@media (min-width: 992px) {
-  .brand-name { font-size: 1.6rem; }
-  .brand-subtitle { font-size: 1.2rem; }
-  .brand-sub { font-size: 1rem; }
-}
-
-@media (min-width: 1200px) {
-  .brand-name { font-size: 1.7rem; }
-  .brand-subtitle { font-size: 1.2rem; }
-  .brand-sub { font-size: 1rem; }
-}
-/*====== custom colour code======*/
 .bg-blue {
   --bs-bg-opacity: 1;
   background: linear-gradient(112.14deg, #00D2FF 0%, #3A7BD5 100%);
 }
-
 
 .back-top.back-top-show {
     visibility: visible;
@@ -98,10 +20,8 @@
     opacity: 0;
     -webkit-transform: translateY(50%);
     transform: translateY(50%);
-    -webkit-transition: all 0.3s 
-ease-in-out;
-    transition: all 0.3s 
-ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background: var(--bs-primary);
     color: #fff;
     border-radius: 10%;
