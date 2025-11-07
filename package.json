@@ -1,0 +1,31 @@
+{
+  "name": "optimista",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "go"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optimistatech16-rgb/optimista.git"
+  },
+  "author": "karle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/optimistatech16-rgb/optimista/issues"
+  },
+  "homepage": "https://github.com/optimistatech16-rgb/optimista#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^10.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.93.3"
+  }
+}
