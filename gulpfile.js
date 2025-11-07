@@ -16,3 +16,10 @@ gulp.task('serve', function() {
 
 // Default task
 gulp.task('default', gulp.series('serve'));
+
+function defaultTask(cb) {
+  // place code for your default task here
+  cb();
+}
+
+exports.default = defaultTask
