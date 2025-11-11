@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://optimista.in/sitemap.xml
+Sitemap: https://optimista.in/sitemap.html
