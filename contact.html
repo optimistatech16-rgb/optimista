@@ -516,6 +516,57 @@ Contact info & Map START -->
 	<!-- Back to top -->
 	<div class="back-top"></div>
 
+	<script>
+(function(){
+  const API_URL = 'https://your-backend-domain.com/api/contact'; // replace with your deployed URL
+
+  const form = document.getElementById('contactForm');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = {
+      name: form.name.value.trim(),
+      email: form.email.value.trim(),
+      phone: form.phone.value.trim(),
+      message: form.message.value.trim()
+    };
+
+    // small client-side validation
+    if (!formData.name || !formData.email || !formData.message || formData.email.indexOf('@') === -1) {
+      return alert('Please fill name, valid email and message');
+    }
+
+    // disable button while sending
+    const btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.innerText = 'Sending...';
+
+    try {
+      const res = await fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
+      const json = await res.json();
+      if (json.success) {
+        alert('Thank you! We got your message.');
+        form.reset();
+        // optionally redirect to a thank-you page:
+        // window.location.href = '/thank-you.html';
+      } else {
+        alert(json.message || 'Submission failed. Try again later.');
+      }
+    } catch (err) {
+      console.error(err);
+      alert('Server error. Please try again later.');
+    } finally {
+      btn.disabled = false;
+      btn.innerText = 'Send a message';
+    }
+  });
+})();
+</script>
+
+
 	<!-- Bootstrap JS -->
 	<script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 	
