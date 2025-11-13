@@ -259,67 +259,80 @@
 <!-- Header END -->
 <main>
 
-    <!-- =======================
-Main hero START -->
+    <!-- Main hero START -->
 <section class="pt-xl-8">
 	<div class="container">
 		<div class="row g-4 g-xxl-5">
 			<div class="col-xl-8 mx-auto">
-				<!-- Image -->
 				<img src="./assets/storyset/contact/contactus.svg" class="rounded" alt="contact-bg">
-
-				<!-- Contact form START -->
 				<div class="row mt-n5 mt-sm-n7 mt-md-n8">
 					<div class="col-11 col-lg-9 mx-auto">
 						<div class="card shadow p-4 p-sm-5 p-md-6">
-							<!-- Card header -->
 							<div class="card-header border-bottom px-0 pt-0 pb-5">
-								<!-- Breadcrumb -->
 								<nav class="mb-3" aria-label="breadcrumb">
 									<ol class="breadcrumb breadcrumb-dots pt-0">
-										<li class="breadcrumb-item"><a href="#">Home</a></li>
+										<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 										<li class="breadcrumb-item active" aria-current="page">Contact us</li>
 									</ol>
 								</nav>
-								<!-- Title -->
 								<h1 class="mb-3 h3">Let's level up your brand, together</h1>
 								<p class="mb-0">You can reach us anytime via <a href="#">support@optimista.in</a></p>
 							</div>
-
-							<!-- Card body & form -->
-							<form class="card-body px-0 pb-0 pt-5 needs-validation" novalidate>
-								<!-- Name -->
+							<!--<form class="card-body px-0 pb-0 pt-5 needs-validation" novalidate>
 								<div class="input-floating-label form-floating mb-4">
 									<input type="text" class="form-control bg-transparent" id="floatingName" placeholder="Password" required>
 									<label for="floatingName">Your name</label>
 								</div>
-								<!-- Email -->
 								<div class="input-floating-label form-floating mb-4">
 									<input type="email" class="form-control bg-transparent" id="floatingInput" placeholder="name@example.com" required>
 									<label for="floatingInput">Email address</label>
 								</div>
-								<!-- Number -->
 								<div class="input-floating-label form-floating mb-4">
 									<input type="text" class="form-control bg-transparent" id="floatingNumber" placeholder="Password" required>
 									<label for="floatingNumber">Phone number</label>
 								</div>
-								<!-- Message -->
 								<div class="input-floating-label form-floating mb-4">
 									<textarea class="form-control bg-transparent" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
 									<label for="floatingTextarea2">Message</label>
 								</div>
-								<!-- Button -->
 								<button class="btn btn-lg btn-primary mb-0">Send a message</button>
-							</form>
+							</form>-->
+							<form id="contactForm" class="card-body px-0 pb-0 pt-5 needs-validation" novalidate>
+  <div class="input-floating-label form-floating mb-4">
+    <input type="text" class="form-control bg-transparent" id="floatingName" name="from_name" placeholder="Your name" required>
+    <label for="floatingName">Your name</label>
+  </div>
+  <div class="input-floating-label form-floating mb-4">
+    <input type="email" class="form-control bg-transparent" id="floatingInput" name="from_email" placeholder="name@example.com" required>
+    <label for="floatingInput">Email address</label>
+  </div>
+  <div class="input-floating-label form-floating mb-4">
+    <input type="text" class="form-control bg-transparent" id="floatingNumber" name="phone" placeholder="Phone number" required>
+    <label for="floatingNumber">Phone number</label>
+  </div>
+  <div class="input-floating-label form-floating mb-4">
+    <textarea class="form-control bg-transparent" id="floatingTextarea2" name="message" placeholder="Message" style="height: 100px" required></textarea>
+    <label for="floatingTextarea2">Message</label>
+  </div>
+  <button type="submit" class="btn btn-lg btn-primary mb-0">Send a message</button>
+</form>
+
 						</div>
 					</div>
 				</div>
-				<!-- Contact form END -->
 			</div>
-		</div> <!-- Row END -->
+		</div>
 	</div>
 </section>
 <!-- Main hero END -->
+
+<!--<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Message Sent Successfully!</h4>
+  <p>Thank you for reaching out to us. Your message has been delivered, and our team will get back to you shortly.</p>
+  <hr>
+  <p class="mb-0">We appreciate your time and interest — expect a quick response within 24 hours.</p>
+</div>-->
+
 
     <!-- Contact info & Map START -->
 <Section class="py-0">
@@ -341,7 +354,7 @@ Main hero START -->
 
 			<!-- Email info -->
 			<div class="col">
-				<div class="card card-body bg-light border p-sm-5">>
+				<div class="card card-body bg-light border p-sm-5">
 					<div class="mb-4"><i class="bi bi-envelope fa-xl text-primary"></i></div>
 					<h6 class="mb-3">Email us</h6>
 					<p>We're on top of things and aim to respond to all inquiries within 24 hours.</p>
@@ -416,12 +429,12 @@ Main hero START -->
 			<div class="row g-4 justify-content-between">
 				<div class="col-lg-3">
 					<a class="d-flex align-items-center text-decoration-none me-0" href="index.html">
-    <img class="h-40px me-2" src="./assets/images/logo/optimistalogo.svg" alt="logo">
-    <div class="d-flex flex-column lh-sm">
-      <span class="fw-bold text-white">OPTIMISTA</span>
-      <small class="text-light">Technologies India Pvt. Ltd</small>
-    </div>
-  </a>
+                         <img class="h-40px me-2" src="./assets/images/logo/optimistalogo.svg" alt="logo">
+                          <div class="d-flex flex-column lh-sm">
+                       <span class="fw-bold text-white">OPTIMISTA</span>
+                         <small class="text-light">Technologies India Pvt. Ltd</small>
+                      </div>
+                   </a>
 					<p class="mt-4 mb-2">Ready to take your website to the next level?</p>
 					<p>Contact Optimista today to discuss your web development project &amp; receive a custom proposal.</p>
 				</div>
@@ -502,10 +515,34 @@ Main hero START -->
 
 	<!-- Back to top -->
 	<div class="back-top"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("xxpg11MUeg_7YXr_4"); // Replace with your EmailJS Public Key
+  })();
+</script>
 
 	<!-- Bootstrap JS -->
 	<script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-	
+	<script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const form = this;
+  
+  emailjs.sendForm("service_lheitq6", "template_d5mh0f5", form)
+    .then(() => {
+      form.reset();
+      document.getElementById("successMessage").style.display = "block";
+    })
+    .catch((error) => {
+      console.error("EmailJS Error:", error);
+      alert("Oops! Something went wrong. Please try again later.");
+    });
+});
+</script>
+<script>document.getElementById("successMessage").classList.add("fade", "show");
+</script>
 	<!-- Theme Functions -->
 	<script src="./assets/js/functions.js"></script>
 
